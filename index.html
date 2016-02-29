@@ -5,6 +5,24 @@
 body {
   background-color: lightblue;
 }
+  p, ul, ol {
+    background-color: lightgreen;
+    color: orange;
+    font-size: 20px;
+  }
+  div.image{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-right: 10px;
+      margin-left: 10px
+  }
+  p.warning {
+    /* This is a CSS comment. I'm using it now
+       to explain that I chose "lightcoral",
+       because it's much easier on the eyes than
+       the ugly "red" - it's yucky. */
+    color: lightcoral;
+  }
 </style>
 
 <title>Sean Connery</title>
@@ -21,11 +39,11 @@ East Lansing, MI 48823
     </pre>
   </address>
 
-  <div> <img src="http://a3.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE1ODA0OTcxNTkzNzk1MDg1.jpg" alt="Sean Connery's Face"></div>
+  <div class="image"> <img src="http://a3.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE1ODA0OTcxNTkzNzk1MDg1.jpg" alt="Sean Connery's Face"></div>
   <h2>Summary</h2>
   <p> Sean Connery is a motivated self-starter who likes to kick ass and take names.  He always gets the job done. </p>
 
-  <br> </br>
+  <br>
 
   <h2> Previous Experience </h2>
   <h3> Submarine Captain for <a href="http://rusnavy.com/">Russian Navy</a></h3>
@@ -49,6 +67,8 @@ East Lansing, MI 48823
     <li>Assisted in the finding of the Ark of the Convenant</li>
     <li>Rode a horse into a sunset</li>
   </ul>
+
+  <p class="warning">Danger! This webpage is too hip for most eyes. Please consult a doctor before viewing.</p>
 
 
 </body>
